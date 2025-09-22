@@ -201,98 +201,134 @@
 </ul>
 
 <h2>Fedora</h2>
-
+<p>Fedora es una <b>distribución de Linux</b> mantenida por una comunidad de ingenieros, diseñadores y usuarios. Al ser <b>software libre</b> y de <b>código abierto</b>, tiene un rápido ritmo de desarrollo y suele integrar tecnologías nuevas con agilidad. Además, cuenta con el patrocinio de la empresa <b>Red Hat</b>.</p>
 
 <h3>Historia</h3>
-
+<ul>
+  <li><b>2004:</b> Se creó el proyecto Fedora tras la descontinuación de Red Hat Linux; Red Hat decidió mantener una distribución comunitaria bajo el nombre Fedora.</li>
+  <li><b>2005–2010:</b> Fedora integró con rapidez tecnologías innovadoras como <b>SELinux</b>, <b>PulseAudio</b> y <b>systemd</b>.</li>
+  <li><b>2014:</b> Se introdujeron los <b>Fedora Editions</b>, versiones enfocadas en distintos usos: escritorio, servidor y nube.</li>
+  <li><b>Actualidad:</b> Las versiones de Fedora se publican aproximadamente cada seis meses y el proyecto mantiene vínculos con <b>RHEL</b> y con la comunidad de CentOS.</li>
+</ul>
 
 <h3>Características</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><b>Innovación temprana:</b> Suele incorporar tecnologías nuevas antes que muchas otras distribuciones (ej.: Wayland, PipeWire, Btrfs).</li>
+  <li><b>Seguridad:</b> Incluye políticas avanzadas como <b>SELinux</b> habilitado por defecto y enfoque en buenas prácticas de seguridad.</li>
+  <li><b>Variedad de ediciones:</b> Dispone de Fedora Workstation, Server, IoT y varios <i>spins</i> con distintos entornos de escritorio (KDE, XFCE, LXQt, etc.).</li>
+  <li><b>Gestión de paquetes:</b> Usa paquetes <b>RPM</b> y gestiona software con <b>DNF</b>, que facilita la instalación y actualización.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
 <ul>
-  <li></li>
+  <li><b>Escritorio personal:</b> Fedora Workstation es popular entre desarrolladores y usuarios que quieren lo último de Linux en su equipo personal.</li>
+  <li><b>Servidores y nube:</b> Fedora Server se usa en entornos de desarrollo y prueba, y actúa como banco de pruebas para tecnologías que pueden llegar a RHEL.</li>
+  <li><b>IoT y embebidos:</b> Con Fedora IoT es posible desarrollar proyectos de automatización, dispositivos inteligentes y aplicaciones embebidas.</li>
 </ul>
 
 <h2>CentOS</h2>
+<p>CentOS (Community ENTerprise Operating System) fue una distribución gratuita y compatible con <b>RHEL</b>. Con el tiempo su modelo cambió y apareció <b>CentOS Stream</b>, que actúa como rama de desarrollo continuo para RHEL.</p>
 
 <h3>Historia</h3>
+<ul>
+  <li><b>2004:</b> Nace CentOS como proyecto comunitario que reconstruye binarios compatibles con RHEL.</li>
+  <li><b>2014:</b> CentOS estrecha lazos con Red Hat, lo que aporta colaboración y recursos al proyecto.</li>
+  <li><b>2020:</b> Red Hat anuncia cambios: CentOS Linux tradicional dejará de ser la rama estable y se impulsa CentOS Stream.</li>
+  <li><b>2021–Actualidad:</b> El cambio provoca migraciones y la aparición de alternativas como Rocky y AlmaLinux; CentOS Stream continúa como upstream para RHEL.</li>
+</ul>
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li><b>Orientada a servidores:</b> Diseñada para estabilidad y compatibilidad empresarial.</li>
+  <li><b>Larga vida útil de versiones:</b> (cuando existía CentOS Linux) ofrecía soporte extendido apropiado para producción.</li>
+  <li><b>Amplio ecosistema:</b> Soporte de paquetes y soluciones empresariales compatibles con RHEL.</li>
+  <li><b>CentOS Stream:</b> Ahora funciona como una rama de desarrollo continuo antes de entrar en RHEL.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
+<ul>
+  <li><b>Históricamente:</b> Servidores web, hosting y aplicaciones empresariales.</li>
+  <li><b>Pruebas y staging:</b> CentOS Stream se usa para pruebas y para preparar cambios que llegarán a RHEL.</li>
+  <li><b>Entornos que migran:</b> Muchos usuarios migraron a Rocky, AlmaLinux u otras alternativas tras los cambios.</li>
+</ul>
 
 <h2>Rocky Linux</h2>
+<p>Rocky Linux es una distribución enfocada a servidores y entornos empresariales, compatible con <b>Red Hat Enterprise Linux (RHEL)</b>. Nació como una alternativa libre y estable para quienes necesitaban continuidad tras los cambios en CentOS.</p>
 
 <h3>Historia</h3>
+<ul>
+  <li><b>2020:</b> Se anuncia el proyecto Rocky Linux como respuesta a la transformación de CentOS; su objetivo fue ofrecer una opción binariamente compatible con RHEL.</li>
+  <li><b>2021:</b> El proyecto publica las primeras versiones y comienza a ganar aceptación entre administradores y empresas.</li>
+  <li><b>2022:</b> Rocky consolida su comunidad, su infraestructura de paquetes y su sistema de soporte para producción.</li>
+  <li><b>2023–Actualidad:</b> Sigue madurando como alternativa estable para servidores, con ciclos de soporte pensados para entornos empresariales.</li>
+</ul>
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li><b>Compatibilidad con RHEL:</b> Binariamente compatible, pensada para migraciones y despliegues empresariales.</li>
+  <li><b>Enfoque en estabilidad:</b> Prioriza parches de seguridad y soporte a largo plazo.</li>
+  <li><b>Governanza comunitaria:</b> Proyecto gestionado por la comunidad con participación de organizaciones y usuarios.</li>
+  <li><b>Facilidad de migración:</b> Herramientas y guías para mover sistemas desde CentOS/RHEL con mínimas interrupciones.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
+<ul>
+  <li><b>Servidores empresariales:</b> Hospedaje web, bases de datos y aplicaciones críticas en producción.</li>
+  <li><b>Plataformas de virtualización y contenedores:</b> Entornos donde se requiere compatibilidad RHEL.</li>
+  <li><b>Migraciones:</b> Migración desde CentOS y mantenimiento de infraestructuras legacy.</li>
+</ul>
 
-<h2>Alma Linux</h2>
+<h2>AlmaLinux</h2>
+<p>AlmaLinux es una distribución comunitaria creada para ser una alternativa gratuita y compatible con <b>RHEL</b>. Nació para ofrecer continuidad y soporte a largo plazo tras los cambios en CentOS.</p>
 
 <h3>Historia</h3>
+<ul>
+  <li><b>2021:</b> Se anuncia AlmaLinux, patrocinada inicialmente por CloudLinux, para garantizar una opción compatible con RHEL.</li>
+  <li><b>2021 (posterior):</b> Se lanza la primera versión estable y comienzan las migraciones desde CentOS.</li>
+  <li><b>2022:</b> Se consolida la comunidad y la estructura de gobernanza para asegurar la continuidad del proyecto.</li>
+  <li><b>2023–Actualidad:</b> AlmaLinux continúa como opción sólida para entornos de producción, con ciclos de soporte orientados a empresas.</li>
+</ul>
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li><b>Compatibilidad RHEL:</b> Binariamente compatible y pensada para producción.</li>
+  <li><b>Gobernanza comunitaria:</b> Organización abierta que supervisa el desarrollo y la estabilidad.</li>
+  <li><b>Soporte a largo plazo:</b> Ciclos de parches y mantenimiento diseñados para entornos empresariales.</li>
+  <li><b>Herramientas de migración:</b> Utilidades y guías para mover sistemas desde CentOS con facilidad.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
+<ul>
+  <li><b>Servidores en producción:</b> Hospedaje, bases de datos y aplicaciones críticas.</li>
+  <li><b>Migraciones desde CentOS:</b> Sustitución directa para entornos que necesitan compatibilidad RHEL.</li>
+  <li><b>Infraestructura en la nube:</b> Despliegues en proveedores cloud donde la estabilidad y soporte son clave.</li>
+</ul>
 
 <h2>Alpine Linux</h2>
+<p>Alpine Linux es una distribución muy ligera y segura, diseñada para ser minimalista. Usa <b>musl libc</b> y <b>BusyBox</b>, lo que la hace ideal cuando el tamaño, la seguridad y el rendimiento son prioritarios.</p>
 
 <h3>Historia</h3>
+<ul>
+  <li><b>2005:</b> Comienzan los trabajos y las primeras versiones que buscan un sistema compacto y seguro.</li>
+  <li><b>2010:</b> Gana visibilidad por su enfoque minimalista y su conjunto de herramientas ligeras.</li>
+  <li><b>2015:</b> Se populariza como base para contenedores (Docker) por sus imágenes pequeñas y rápidas.</li>
+  <li><b>2020–Actualidad:</b> Se mantiene como opción preferida en contenedores, appliances y sistemas embebidos gracias a su bajo footprint y enfoque en seguridad.</li>
+</ul>
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li><b>Muy ligera:</b> Imágenes base pequeñas y dependencias mínimas.</li>
+  <li><b>Seguridad:</b> Toolchain endurecido y configuración conservadora por defecto.</li>
+  <li><b>musl y BusyBox:</b> Diferente a distros tradicionales (glibc), lo que reduce tamaño y complejidad.</li>
+  <li><b>Orientada a contenedores:</b> Ideal para Docker y otros runtimes por su rapidez y pequeño tamaño.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
+<ul>
+  <li><b>Contenedores Docker:</b> Imágenes minimalistas y seguras para microservicios.</li>
+  <li><b>Appliances y embebidos:</b> Routers, appliances y sistemas con recursos limitados.</li>
+  <li><b>Servicios que requieren seguridad:</b> Entornos donde la superficie de ataque y el footprint deben ser reducidos.</li>
+</ul>
 
 <hr>
 
@@ -303,7 +339,7 @@
 <hr>
 
 <div align="center">
-  <p><img width=850 src="https://github.com/user-attachments/assets/4c76fd9b-e332-4426-a864-67a4dedd4dc0"/></p>
+  <p><img width=850 src="https://github.com/user-attachments/assets/5a99a2c2-2d58-444f-abff-ca996d6da622"/></p>
 </div>
 
 <hr>
