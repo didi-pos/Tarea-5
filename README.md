@@ -175,46 +175,48 @@
 </ul>
 
 <h2>Garuda</h2>
-
+<p>Garuda es una distribución de Linux basada en <b>Arch Linux</b>, al igual que Manjaro. Está diseñada para proporcionar una experiencia de escritorio <b>hermosa</b>, <b>moderna</b> y fácil de usar, sin perder la esencia de Arch. Además de su estética, Garuda se enfoca en la <b>optimización</b> y el <b>rendimiento</b> para que el sistema se sienta más ágil y cómodo al usarlo.</p>
 
 <h3>Historia</h3>
 <ul>
-  <li></li>
+  <li><b>2020:</b> Surge Garuda Linux en India con el objetivo de crear una distribución basada en Arch pero más amigable para nuevos usuarios.</li>
+  <li><b>2021:</b> La comunidad crece y se lanzan varias ediciones oficiales con escritorios como KDE, GNOME y XFCE.</li>
+  <li><b>2022:</b> El proyecto gana notoriedad internacional por su edición <i>KDE Dr460nized</i> y su enfoque en rendimiento y diseño visual.</li>
+  <li><b>2023–Actualidad:</b> Garuda mantiene un modelo <i>rolling release</i>, con mejoras en el instalador gráfico, la detección de hardware y la integración con <b>pacman</b> y asistentes gráficos propios.</li>
 </ul>
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li><b>Entornos y personalización:</b> Ofrece varios entornos (alrededor de 12 ediciones) como <i>KDE Dr460nized</i>, todos muy personalizables y visualmente cuidados.</li>
+  <li><b>Optimización y kernel Zen:</b> Está pensado para ofrecer mejor rendimiento; con el <b>kernel Zen</b> obtiene buena capacidad de respuesta y fluidez.</li>
+  <li><b>Herramientas gráficas propias:</b> Incluye utilidades como <b>Garuda Settings Manager</b> para instalar controladores, gestionar ajustes y facilitar la configuración del sistema.</li>
+  <li><b>Modelo rolling:</b> Al ser rolling release, las actualizaciones y nuevas funciones se incorporan continuamente sin reinstalar versiones completas.</li>
 </ul>
 
-<h3>Uso y Aplicaciones</h3>
+<h3>Uso y aplicaciones</h3>
+<ul>
+  <li><b>Gaming:</b> Muy popular entre jugadores por sus optimizaciones, buen soporte de controladores y compatibilidad con Steam y Proton.</li>
+  <li><b>Escritorio personal:</b> Apta para quien busca un sistema visualmente atractivo y listo para usar desde el primer inicio.</li>
+  <li><b>Entorno de desarrollo:</b> Útil para programadores que necesitan software actualizado, kernels optimizados y entornos de trabajo ágiles.</li>
+</ul>
 
 <h2>Fedora</h2>
 
+
 <h3>Historia</h3>
+
 
 <h3>Características</h3>
 <ul>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
 
 <h3>Uso y Aplicaciones</h3>
+<ul>
+  <li></li>
+</ul>
 
 <h2>CentOS</h2>
 
