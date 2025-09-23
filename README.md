@@ -339,7 +339,40 @@
 <hr>
 
 <div align="center">
-  <p><img width=850 src="https://github.com/user-attachments/assets/5a99a2c2-2d58-444f-abff-ca996d6da622"/></p>
+<h2>Paso a Paso de la instalación de QEMU en Ubuntu</h2>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/5a99a2c2-2d58-444f-abff-ca996d6da622"/><br>
+  Primero se comprueba si la CPU tiene la capacidad de soportar máquinas virtuales o virtualización (KVM). Luego usamos el comando <code>sudo kvm-ok</code> para verificar si KVM funciona.</p>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/e3031576-a80e-4542-a60f-492a85549c21"/><br>
+  Después, con <code>sudo apt install</code>, instalamos directamente QEMU y QEMU-KVM, junto con todas las librerías necesarias como libvirt y otras del mismo estilo, para que pueda funcionar correctamente.</p>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/47d63ae3-1ba2-4fbb-8478-6c4b49bd5bd6"/><br>
+  Aquí se muestra la reinstalación, ya que la anterior no funcionó por haber puesto <code>sudo apt update</code> y <code>upgrade</code> en la misma línea. Eso es una mala práctica y puede causar problemas.</p>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/39d92654-3e0a-4d56-bfa3-ca4a3ec886e1"/><br>
+  Por último, se usan unos comandos para añadir el usuario al grupo <code>libvirt</code> y <code>kvm</code>. Esto sirve para no tener que usar siempre <code>sudo</code>, ya que al pertenecer a esos grupos el usuario obtiene los permisos necesarios.</p>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/e1132074-f94e-47e2-ab76-649dde1b396f"/><br>
+  Para usar qemu, primero se sabe que qemu es para instalar e inicializar SOs, osea que es una maquina virtual. Primero se genera el espacio en el cual se va a guardar el SO, luego se descarga la imagen (.iso), se puede en la pagina web o desde la terminal como lo hice con wget con el link del archivo en la web, despues de tener la imagen, se descarga el SO poniendo las condiciones de memoria, ram, nucleos de cpu, etc... Esto se hace con qemu-system-x86_64 y poniendo las condiciones. Si todo sale bien, se iniciaria el instalador y podra uno configurar un poco del SO.<br>
+  O se puede hacer la instalacion desde una interfaz grafica que se llama Virtual Managee</p>
 </div>
 
 <hr>
+
+<div align="center">
+  <em>Tercer Punto</em>
+</div>
+
+<hr>
+
