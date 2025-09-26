@@ -376,3 +376,16 @@
 
 <hr>
 
+<div align="center">
+<h2>Analisis de red y puertos</h2>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/d1365007-a686-426b-8710-4095eb40bb92"/><br>
+  Primero se debe saber la IP que tiene el computador y la máscara, para conocer la dirección de la red y poder usar correctamente <code>nmap</code>. Esto se logra ejecutando el comando <code>ifconfig</code>. Después de identificar nuestra red, debemos asegurarnos de que <code>nmap</code> esté instalado —si no lo está, los comandos de <code>nmap</code> no funcionarán—. Se instala con <code>sudo apt install -y nmap</code>.</p>
+</div>
+
+<div align="center">
+  <p><img width=850 src="https://github.com/user-attachments/assets/e6f79ec7-4fea-4ae0-b2a0-e27f10b3584a"/><br>
+  Una vez comprobado que <code>nmap</code> está instalado, puedes usar el comando <code>nmap -sn &lt;rango&gt;</code>. Este comando sirve para ver qué dispositivos responden en la red local —prácticamente, quién está conectado—. El comando <code>nmap -sV &lt;host_o_rango&gt;</code> realiza un escaneo básico de puertos y detecta servicios en un host. Si al final de la IP pones un rango limitarás el escaneo a esas direcciones; si usas la máscara (por ejemplo <code>192.168.1.0/24</code>) se escaneará toda la red.</p>
+</div>
